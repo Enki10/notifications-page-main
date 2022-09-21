@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+  <link rel="stylesheet" href="./src/scss/main.scss" />
+
+  <title>Frontend Mentor | Notifications page</title>
+</head>
+
+<body>
+  <section class="section-notifications">
+    <div class="ntf">
+      <header class="ntf__header">
+        <div class="ntf__logo">
+          <h2 class="heading-secondary">Notifications</h2>
+          <span class="ntf__unread-count">3</span>
+        </div>
+
+        <button class="ntf__read-button">Mark all as read</button>
+      </header>
+
+      <main class="ntf__content">
+        <div class="ntf__item unread">
+          <div class="ntf__item-profile">
+            <img src="./assets/images/avatar-mark-webber.webp" alt="" class="ntf__item-photo" />
+          </div>
+          <div class="ntf__item--action">
+            <div class="ntf__item--action-detail">
+              <p class="ntf__item-msg">
+                <span class="name-highlight">Mark Webber</span> reacted to
+                your recent post
+                <a href="#" class="post-event">My first tournament today!</a>
+              </p>
+              <span class="ntf__item--time">1m ago</span>
+            </div>
+            <p class="ntf__item--description"></p>
+          </div>
+        </div>
+        <div class="ntf__item unread">
+          <div class="ntf__item-profile">
+            <img src="./assets/images/avatar-angela-gray.webp" alt="" class="ntf__item-photo" />
+          </div>
+          <div class="ntf__item--action">
+            <div class="ntf__item--action-detail">
+              <p class="ntf__item-msg">
+                <span class="name-highlight">Angel Gray</span> followed you
+              </p>
+              <span class="ntf__item--time">5m ago</span>
+            </div>
+            <p class="ntf__item--description"></p>
+          </div>
+        </div>
+        <div class="ntf__item unread">
+          <div class="ntf__item-profile">
+            <img src="./assets/images/avatar-jacob-thompson.webp" alt="" class="ntf__item-photo" />
+          </div>
+          <div class="ntf__item--action">
+            <div class="ntf__item--action-detail">
+              <p class="ntf__item-msg">
+                <span class="name-highlight">Jacob Thompson</span> has joined
+                your group <a href="#" class="invitation-event">Chess Club</a>
+              </p>
+              <span class="ntf__item--time">1day ago</span>
+            </div>
+            <p class="ntf__item--description"></p>
+          </div>
+        </div>
+        <div class="ntf__item ntf__item--active">
+          <div class="ntf__item-profile">
+            <img src="./assets/images/avatar-rizky-hasanuddin.webp" alt="" class="ntf__item-photo" />
+          </div>
+          <div class="ntf__item--action">
+            <div class="ntf__item--action-detail">
+              <p class="ntf__item-msg">
+                <span class="name-highlight">Rizky Hasanuddin</span> sent you
+                a private message
+              </p>
+              <span class="ntf__item--time">5days ago</span>
+            </div>
+            <p class="ntf__item--description">
+              Hello, thanks for setting up the Chess Club. I've been a member
+              for a few weeks now and I'm already having lots of fun and
+              improving my game.
+            </p>
+          </div>
+        </div>
+        <div class="ntf__item">
+          <div class="ntf__item-profile">
+            <img src="./assets/images/avatar-kimberly-smith.webp" alt="" class="ntf__item-photo" />
+          </div>
+          <div class="ntf__item--action">
+            <div class="ntf__item--action-detail">
+              <p class="ntf__item-msg">
+                <span class="name-highlight">Kimberly Smith</span> commented
+                on your picture
+              </p>
+              <span class="ntf__item--time">1 week ago</span>
+            </div>
+            <p class="ntf__item--description"></p>
+          </div>
+        </div>
+        <div class="ntf__item">
+          <div class="ntf__item-profile">
+            <img src="./assets/images/avatar-nathan-peterson.webp" alt="" class="ntf__item-photo" />
+          </div>
+          <div class="ntf__item--action">
+            <div class="ntf__item--action-detail">
+              <p class="ntf__item-msg">
+                <span class="name-highlight">Nathan Peterson</span> reacted to
+                your recent post
+                <a href="#" class="post-event">
+                  5 end-game strategies to increase your win rate
+                </a>
+              </p>
+              <span class="ntf__item--time">2 weeks ago</span>
+            </div>
+            <p class="ntf__item--description"></p>
+          </div>
+        </div>
+        <div class="ntf__item">
+          <div class="ntf__item-profile">
+            <img src="./assets/images/avatar-anna-kim.webp" alt="" class="ntf__item-photo" />
+          </div>
+          <div class="ntf__item--action">
+            <div class="ntf__item--action-detail">
+              <p class="ntf__item-msg">
+                <span class="name-highlight">Anna Kim</span> left the group
+                <a href="#" class="invitation-event">Chess Club</a>
+              </p>
+              <span class="ntf__item--time">2 weeks ago</span>
+            </div>
+            <p class="ntf__item--description"></p>
+          </div>
+        </div>
+      </main>
+    </div>
+  </section>
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Akshay Shah</a>.
+  </div> -->
+
+  <script defer type="module" src="./src/js/controller.js"></script>
+</body>
+
+</html>

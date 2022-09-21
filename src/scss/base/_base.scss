@@ -1,0 +1,28 @@
+:root {
+  --color-blue: hsl(219, 85%, 26%);
+  --color-red: hsl(1, 90%, 64%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-black: #151515;
+  --color-very-light-grayish-blue: hsl(210, 60%, 98%);
+  --color-grayish-light-blue-1: hsl(211, 68%, 94%);
+  --color-grayish-light-blue-2: hsl(205, 33%, 90%);
+  --color-grayish-blue: hsl(219, 14%, 63%);
+  --color-dark-grayish-blue: hsl(219, 12%, 42%);
+  --color-very-dark-blue: hsl(224, 21%, 14%);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}

@@ -1,0 +1,32 @@
+.hidden {
+  display: none;
+}
+
+.unread {
+  background-color: var(--color-very-light-grayish-blue);
+}
+
+.name-highlight {
+  color: var(--color-black);
+  font-size: 1.6rem;
+  font-weight: 800;
+  margin-right: 2px;
+}
+
+.invitation-event {
+  &:link,
+  &:visited {
+    text-decoration: none;
+    color: var(--color-blue);
+    font-weight: 700;
+  }
+}
+
+.post-event {
+  &:link,
+  &:visited {
+    text-decoration: none;
+    color: var(--color-dark-grayish-blue);
+    font-weight: 700;
+  }
+}

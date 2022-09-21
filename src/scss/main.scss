@@ -7,6 +7,37 @@
 @import './base/typgraphy';
 @import './base/utilities';
 
+
+.section-notifications {
+    background-color: #f9fafe;
+    overflow:auto;
+}
+.ntf{
+    background-color:#ffffff;
+    width:500px; 
+    margin:25px auto;
+    padding: 20px;
+    border-radius:10px;
+}
+
+@media screen and (max-width: 1023px) {
+    .ntf{
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .ntf{
+        width:80%;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .ntf{
+        width:90%;
+    }
+}
+
+
 // Components
 @import './components/redDot';
 

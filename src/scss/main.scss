@@ -20,6 +20,31 @@
     border-radius:10px;
 }
 
+.unread {
+    background-color: #f9fafe;
+    background-color: #f9fafe;
+}
+.ntf__item{
+    display:flex;
+    margin-bottom:20px;
+}
+.ntf__item-msg{
+    display:flex;
+}
+.ntf__header{
+    display:flex;
+}
+.ntf__logo{
+    display:flex;
+}
+
+.ntf_read-button{
+}
+
+.ntf__item-msg > span {
+    padding-right:5px;
+}
+
 @media screen and (max-width: 1023px) {
     .ntf{
     }

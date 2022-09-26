@@ -6,22 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- displays site properly based on user's device -->
   
-    <!-- added headers -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- finish added header-->
   
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
   <link rel="stylesheet" href="./src/scss/main.scss" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script>
-        jQuery(document).ready(function () {
-            $(".unread ").find(".ntf__item-msg").append("<span class='red-dot'></span>");
-            $(".ntf__item--description").each(function (content) {
-                if ($(this).is(":empty")) $(this).css("display", "none"); 
-            });
-        });
-    </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script>
+      jQuery(document).ready(function () {
+          $(".unread ").find(".ntf__item-msg").append("<span class='red-dot'></span>");
+          $(".ntf__item--description").each(function (content) {
+              if ($(this).is(":empty")) $(this).css("display", "none"); 
+          });
+      });
+  </script>
   
   <title>Frontend Mentor | Notifications page</title>
 </head>

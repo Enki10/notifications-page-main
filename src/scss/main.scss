@@ -53,9 +53,7 @@
 .ntf__item--time {
     color: darkgrey;
 }
-.newwww{
 
-}
 .ntf__header{
     margin-bottom: 20px;
 }
@@ -86,6 +84,23 @@
     text-align:center;
     position:relative;
     top:-3px;
+}
+.red-dot{
+    display:inline-block;
+}
+.ntf__item--description{
+    padding:17px;
+    border-style: solid;
+    border-color: grey;
+    border-width:1px;
+    border-radius: 5px;
+}
+.ntf__item-profile > img{
+    height:60px;
+    margin-top:10px;
+}
+.ntf__item--action-detail{
+    margin-bottom:10px;
 }
 
 

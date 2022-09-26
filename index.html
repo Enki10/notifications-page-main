@@ -8,8 +8,16 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
   <link rel="stylesheet" href="./src/scss/main.scss" />
-  <link rel="stylesheet" href="./src/scss/components/_redDot.scss" />
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        jQuery(document).ready(function () {
+            $(".unread ").find(".ntf__item-msg").append("<span class='red-dot'></span>");
+            $(".ntf__item--description").each(function (content) {
+                if ($(this).is(":empty")) $(this).css("display", "none"); 
+            });
+        });
+    </script>
+  
   <title>Frontend Mentor | Notifications page</title>
 </head>
 
